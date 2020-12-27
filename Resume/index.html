@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .top{
+            
+            /* background-color: rgba(75, 64, 80, 1); */
+            width: 1200px;
+            height: 470px;
+            margin: auto;
+            border-radius: 20px;
+            background-color: rgb(167, 167, 167);
+        }
+        .bottom{
+            
+            background-color: white;
+            width: 1200px;
+            margin: auto;
+            border-radius: 20px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: rgb(65, 53, 53);
+        }
+        img{
+            border-radius: 100%;
+            width: 300px;
+            height: 300px;
+            border: 5px dotted rgb(43, 43, 38);
+            z-index: -1;
+        }
+        .in{
+            width: fit-content;
+            margin: auto;
+            position: relative;
+            top: 50px;
+        }
+        .name{
+            width: fit-content;
+            font-size: 50px;
+            color: honeydew;
+            margin: auto;
+            background-color: rgb(48, 49, 44);
+            position: relative;
+            border-radius: 20px;
+            padding: 40px 20px;
+            z-index: 1;
+        }
+        .empty{
+            height: 30px;
+            background-color: rgba(124, 110, 110, 0.925);
+            position: relative;
+            top: -80px;
+            z-index: 0;
+        }
+        hr{
+            width: 1200px;
+            color: grey;
+        }
+        .addr{
+            text-align: center;
+            width: 1200px;
+            margin: auto;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .inl{
+            display: inline-block;
+            width: 550px;
+            padding: 5px;
+            position: relative;
+            left: 35px;
+        }
+        .bord{
+            border-right: 2px solid grey;
+            margin-right: 10px;
+        }
+        .inside{
+            font-size: 30px;
+        }
+        .inside p{
+            font-size: 20px;
+        }
+        .range{
+            background-color: grey;
+            margin: 10px 0;
+            border-radius: 10px;
+            width: 250px;
+            height: 30px;
+        }
+        .make-inline{
+            display: inline-block;
+            margin-left: 50px;
+        }
+        .i1{
+            position: relative;
+            left: 170px;
+        }
+        .i2{
+            position: relative;
+            left: 130px;
+        }
+        .i3{
+            position: relative;
+            left: 120px;
+        }
+        .bol{
+            text-align: center;
+        }
+        .inner-content{
+            font-size: 20px;
+        }
+        .inline1{
+            display: inline-block;
+        }
+        .marg{
+            margin-left: 210px;
+        }
+        .marg1{
+            margin-left: 290px;
+        }
+        .alii{
+            vertical-align: top;
+        }
+    </style>
+</head>
+<body>
+    <div class="top">
+        <div class="in">
+            <img src="Ratan.png" alt="">
+        </div>
+        <div class="name">
+            Ratan Deep Singh
+        </div>
+        <div class="empty"> 
+        </div>
+    </div>
+    <br>
+    <p class="addr">
+        Chennai-600094 | 7092177850 | ratan.web.dev@gmail.com 
+    </p>
+    <hr>
+
+    <div class="bottom">
+        <div class="inl bord">
+            <div class="inside">
+                <i class="fa fa-address-book"></i> &nbsp;Profile
+                <p>
+                    Seeking a responsible job  with an opportunity for professional challenges .
+                </p>
+            </div>
+            <div class="inside">
+                <i class="fa fa-flask"></i> &nbsp; Skills
+                <p>
+                    <div class="bol"><b>Technical Skills</b></div> 
+                    <div class="make-inline">
+                        <div>HTML</div>
+                        <div>CSS</div>
+                        <div>JavaScript</div>
+                    </div>
+                    <div class="make-inline">
+                        <div class="range"><i class="fa fa-circle-o i1"></i></i></div>
+                        <div class="range"><i class="fa fa-circle-o i2"></i></div>
+                        <div class="range"><i class="fa fa-circle-o i3"></i></div>
+                    </div>
+                </p>
+            </div>
+            <div class="inside">
+                <i class="fa fa-folder-open"></i> &nbsp; Work experience
+                    <div class="inner-content">
+                       <div class="inline1"><b>Console operator</b></div>  <div class="inline1 marg">10/2016 - 09/2018</div>  <br>
+                        IBM India Private Limited, Chennai
+                    </div>
+                    <ul class="inner-content">
+                        <li>Monitored servers (windows, linux etc..) with Tivoli Netcool tool and necessary actions were taken in case of any event occurred.</li>
+                        <li>First-level troubleshooting were done on the applications that went down due to some issue.</li>
+                        <li>Apart from monitoring, troubleshooting of servers were done by taking remote using RDP, in case of windows server and through putty, in case of linux/AIX server. </li>
+                        <li>Network devices were configured on MRTG website and monitoring of network traffic on different devices (Routers, Switches etc..) were done on by us and by agencies.</li>
+                    </ul>
+            </div>
+        </div>
+        <div class="inl alii">
+            <div class="inside">
+                <i class="fa fa-folder-open"></i> &nbsp;Work experience
+                    <div class="inner-content">
+                       <div class="inline1"><b>Batch operator</b></div>  <div class="inline1 marg">09/2018 - present</div>  <br>
+                       IBM India Private Limited, Chennai
+                    </div>
+                    <ul class="inner-content">
+                        <li>Using TWS tool, the batch jobs were monitored and necessary acions were taken for all kinds of issue on the job that is executing on servers.</li>
+                        <li>Also batch jobs were monitored on Tivoli Netcool tool and troubleshootingwas done in case of any event occurred on console.
+                        </li>
+                        <li>Troubleshooting were done on the TWS server (in our case, a linux server) using linux commands.</li>
+                    </ul>
+            </div>
+            <div class="inside">
+                <i class="fa fa-book"></i> &nbsp; Education
+                <br>
+                <br>
+                <div class="inner-content">
+                    <div class="inline1"><b>B.E EEE</b></div>  <div class="inline1 marg1"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2012 - 2016</div>  <br>
+                     Vel Tech Engg. College, Chennai
+                 </div>
+                 <hr style="width: 550px;">
+                 <div class="inner-content">
+                    <div class="inline1"><b>10th Standard</b></div>  <div class="inline1 marg1">2009 - 2010</div>  <br>
+                     Kendriya Vidyalaya, Gill Nagar
+                 </div>
+                 <hr style="width: 550px;">
+                 <div class="inner-content">
+                    <div class="inline1"><b>12th Standard</b></div>  <div class="inline1 marg1">2011 - 2012</div>  <br>
+                    Kendriya Vidyalaya, Gill Nagar
+                 </div>
+                 <hr style="width: 550px;">
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
